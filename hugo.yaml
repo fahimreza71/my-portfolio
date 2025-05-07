@@ -62,7 +62,7 @@ Menus:
 
 params:
   title: "Fahim Reza"
-  description: Text about my cool site
+  description: Let’s connect and create something impactful together
   # staticPath: ""  # The path to serve the static files from
   favicon: "/coding.png"
 
