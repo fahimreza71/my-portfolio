@@ -54,13 +54,11 @@ Hugo ships with several [Embedded Shortcodes](https://gohugo.io/content-manageme
 ```
 {{</* x user="GoHugoIO" id="1315233626070503424" */>}}
 ```
-<br>
+<!-- <br>
 {{< x user="GoHugoIO" id="1315233626070503424" >}}
-<br>
+<br> -->
 
-
-
-## Vimeo Simple Shortcode
+<!-- ## Vimeo Simple Shortcode
 ```
 {{</* vimeo 146022717 */>}}
 ```
