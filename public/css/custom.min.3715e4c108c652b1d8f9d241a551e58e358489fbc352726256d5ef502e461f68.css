@@ -1,0 +1,1 @@
+ul.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px 40px;list-style:none;padding:0}ul.skills-grid li{display:flex;align-items:l;font-size:16px}ul.skills-grid li svg{margin-right:10px;width:20px;height:20px}ul.skills-grid li i{margin-right:10px}
