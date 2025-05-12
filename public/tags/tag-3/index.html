@@ -31,14 +31,14 @@
 <meta property="og:url" content="http://localhost:1313/tags/tag-3/">
   <meta property="og:site_name" content="Fahim Reza">
   <meta property="og:title" content="Tag 3">
-  <meta property="og:description" content="Text about my cool site">
+  <meta property="og:description" content="Let’s connect and create something impactful together">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tag 3">
-  <meta name="twitter:description" content="Text about my cool site">
+  <meta name="twitter:description" content="Let’s connect and create something impactful together">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -102,13 +102,14 @@
 
 
 
+<link rel="stylesheet" href="css/custom.css">
+
+
 <meta name="description" content="Tag 3 of Fahim Reza">
 <link rel="stylesheet" href="/css/list.css" media="all">
 
 
   
-  
-    <link rel="stylesheet" href="/style.css">
   
 
   <title>
@@ -527,14 +528,10 @@ The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is …</!--></!--></p
 </div>
 </footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
+    if (document.body.className.includes("light")) {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+        localStorage.setItem("pref-theme", 'dark');
     }
-
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {

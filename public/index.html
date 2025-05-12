@@ -32,14 +32,14 @@
 <meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="Fahim Reza">
   <meta property="og:title" content="Fahim Reza">
-  <meta property="og:description" content="Text about my cool site">
+  <meta property="og:description" content="Let’s connect and create something impactful together">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Fahim Reza">
-  <meta name="twitter:description" content="Text about my cool site">
+  <meta name="twitter:description" content="Let’s connect and create something impactful together">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -103,7 +103,10 @@
 
 
 
-<meta name="description" content=Text&#32;about&#32;my&#32;cool&#32;site>
+<link rel="stylesheet" href="css/custom.css">
+
+
+<meta name="description" content=Let’s&#32;connect&#32;and&#32;create&#32;something&#32;impactful&#32;together>
 <link rel="stylesheet" href="/css/index.css" media="all">
 <link rel="stylesheet" href="/css/projects.css" media="all">
 
@@ -112,8 +115,6 @@
 
 
   
-  
-    <link rel="stylesheet" href="/style.css">
   
 
   <title>
@@ -1256,14 +1257,10 @@ Fahim Reza
 </div>
 </footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
+    if (document.body.className.includes("light")) {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+        localStorage.setItem("pref-theme", 'dark');
     }
-
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {

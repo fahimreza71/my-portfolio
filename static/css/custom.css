@@ -1,3 +1,8 @@
+/* Temporary test */
+/* body {
+  border: 5px solid blue !important; 
+} */
+
 ul.skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -20,5 +25,10 @@ ul.skills-grid li svg {
 
 ul.skills-grid li i {
   margin-right: 10px;
+}
+
+body *::selection {
+  background-color: #66aaff !important;
+  color: black !important;
 }
 

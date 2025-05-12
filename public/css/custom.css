@@ -1,3 +1,8 @@
+/* Temporary test */
+/* body {
+  border: 5px solid blue !important; 
+} */
+
 ul.skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -12,11 +17,18 @@ ul.skills-grid li {
   font-size: 16px;
 }
 
-ul.skills-grid li i {
-  margin-right: 10px;
-  color: black;
+ul.skills-grid li svg {
+  margin-right: 10px;       
+  width: 20px;  
+  height: 20px;
 }
 
-body {
-  background-color: lightyellow !important;
+ul.skills-grid li i {
+  margin-right: 10px;
 }
+
+body *::selection {
+  background-color: #66aaff !important;
+  color: black !important;
+}
+

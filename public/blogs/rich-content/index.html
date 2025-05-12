@@ -108,6 +108,9 @@
 
 
 
+<link rel="stylesheet" href="css/custom.css">
+
+
 <meta name="description" content="">
 <link rel="stylesheet" href="/css/single.css">
 
@@ -116,8 +119,6 @@
 
 
   
-  
-    <link rel="stylesheet" href="/style.css">
   
 
   <title>
@@ -380,20 +381,7 @@ toc:
 
 Hugo ships with several [Embedded Shortcodes](https://gohugo.io/content-management/shortcodes/#embedded) for rich content, along with a [Privacy Config](https://gohugo.io/about/privacy/#configuration) and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
 
-## X Simple Shortcode
-```
-{{< x user="GoHugoIO" id="1315233626070503424" >}}
-```
-<br>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by <a href="https://twitter.com/gurusabarishh?ref_src=twsrc%5Etfw">@gurusabarishh</a>.<a href="https://t.co/KwYcwfdy16">https://t.co/KwYcwfdy16</a></p>&mdash; GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/1315233626070503424?ref_src=twsrc%5Etfw">October 11, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<br>
-
-
-
-## Vimeo Simple Shortcode
+<!-- ## Vimeo Simple Shortcode
 ```
 {{< vimeo 146022717 >}}
 ```
@@ -657,14 +645,10 @@ Optionally, you can customize the general CSS styles for the image:
 </div>
 </footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
+    if (document.body.className.includes("light")) {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+        localStorage.setItem("pref-theme", 'dark');
     }
-
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
