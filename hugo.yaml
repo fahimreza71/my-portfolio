@@ -285,7 +285,7 @@ params:
       #     Extracurricular Activities
       #       - Lorem ipsum dolor sit amet consectetur adipisicing elit.
       #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+      - title: "BSc in Computer Science & Engineering"
         school:
           name: "International Islamic University Chittagong"
           url: "https://www.iiuc.ac.bd/"
