@@ -356,6 +356,58 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: E-Bazaar
+        content: A full-stack e-commerce application built with .NET 8.0, featuring product management, shopping cart, and dynamic discounts.
+        image: /images/projects/eBazaar-home.png
+        featured:
+          name: Githib
+          link: https://github.com/fahimreza71/E-Bazaar
+        badges:
+          - "Razor"
+          - "ASP.NET Core Web API"
+          - "MSSQL"
+          - 
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/fahimreza71/E-Bazaar
+
+      - title: Account-Management
+        content: A web-based Account Management System built using ASP.NET Core Razor Pages, SQL Server, and ASP.NET Identity with custom roles. It supports role-based access, hierarchical chart of accounts, and voucher entries using only stored procedures (no LINQ).
+        image: /images/projects/All_Acc.png
+        featured:
+          name: Githib
+          link: https://github.com/fahimreza71/Account-Management
+        badges:
+          - "Razor"
+          - "ASP.NET Core"
+          - "Identity"
+          - "Stored Procedure"
+          - "MSSQL"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/fahimreza71/Account-Management
+
+      - title: Task Tracker
+        content: A web-based task tracking application built with ASP.NET Core that helps users manage their tasks and to-dos.
+        image: /images/projects/converter.jpg
+        featured:
+          name: Githib
+          link: https://github.com/fahimreza71/Task-Tracker
+        badges:
+          - "Razor"
+          - "ASP.NET Core"
+          - "MSSQL"
+          - "MVC"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/fahimreza71/Task-Tracker
+
       - title: Quick Note
         content: Notes Management System built with ASP.NET Core 6 Web API for the backend and Angular for the frontend. It allows users to create, update, delete, and manage notes efficiently.
         image: /images/projects/quick-note.png
