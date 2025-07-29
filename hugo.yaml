@@ -167,10 +167,11 @@ params:
     title: "About Me"
     image: "/images/image.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and engineering, and I have a strong interest in the intersection of technology and art. I am now seeking to advance my career by securing a fresher role in the software industry, where I can apply my knowledge and skills to real-world projects and contribute meaningfully to impactful solutions.
-      <!-- I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. -->
+      I am a software engineer with a passion for web development. With a background in Computer Science and Engineering, I enjoy building functional, user-focused web applications that blend technology and creativity.
+      
+      I am currently working as Trainee Software Engineer at [CSM Bangladesh Ltd.](https://www.csmbangladesh.com) in Dhaka, Bangladesh.
 
-      I am currently working on a real-time messaging and video calling application built with .NET, Angular, SignalR, WebRTC, Tailwind CSS, and Angular Material.
+      <!-- I am currently working on a real-time messaging and video calling application built with .NET, Angular, SignalR, WebRTC, Tailwind CSS, and Angular Material. -->
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -191,10 +192,27 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Trainee Software Engineer"
+        company: "CSM Bangladesh Ltd."
+        companyUrl: "https://www.csmbangladesh.com"
+        date: "Jul 2025 - Present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: true
+          content: "Dhaka, Bangladesh"
+        content: |
+          Tech Stack -- ASP.NET, MSSQL Server, Razor
+
+          - Contributing to the development and maintenance of a modular ERP/CRM system used by national and international businesses, focusing on backend logic using ASP.NET and Razor components.
+          - Collaborating with senior engineers to troubleshoot system bugs and optimize database queries, enhancing overall system performance and maintainability.
+
       - job: "Teaching Assistant"
         company: "International Islamic University Chittagong"
         companyUrl: "https://www.iiuc.ac.bd/"
-        date: "Jan 2022 - Dec 2024"
+        date: "Jan 2023 - Jun 2025"
         featuredLink:
           enable: false
           url: "https://example.com"
@@ -206,7 +224,6 @@ params:
 
           - Mentored students in C#, Java, and Python programming; taught ASP.NET and Apache NetBeans during Software Development course.
           - Delivered hands-on guidance during AI coursework using Python frameworks such as Scikit-learn, Pandas, Matplotlib, and Seaborn.
-
 
       # - job: "Senior Software Developer"
       #   company: "Facebook"
@@ -272,14 +289,15 @@ params:
         school:
           name: "International Islamic University Chittagong"
           url: "https://www.iiuc.ac.bd/"
-        date: "2021 - 2024"
+        date: "202* - 202*"
         GPA: "3.** out of 4.0"
         # content: |-
         #   I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
         #   - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
         #   - Face mask detection using a single convolutional neural network.
         content: |-
-            Completed my CS degree with 163 credits and ranked in the top 5% of my batch.
+            Completed my CS degree with 163 credits and Ranked top 5% of the batch <br>
+            3x Tuition Waivers for GPA 3.8+
             -  Relevant Coursework -- Object Oriented Programming, Data Structures and Algorithms, Databases, Operating Systems, Computer Networks, Machine Learning, Data Mining, Distributed Databases, Image Processing, Discrete Mathematics, and Digital Logic Design.
 
             Extracurricular Activities
