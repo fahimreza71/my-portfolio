@@ -138,7 +138,7 @@ params:
     intro: "Hi, my name is"
     title: "Fah!m Reza."
     subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    content: "A passionate software engineer, tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
     image: /images/myimage.jpg
     bottomImage:
       enable: true
@@ -146,7 +146,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1Je8fUkKe96l9B3SdB1hQAomeHAQF39eR/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1aMQ2KNc1iiEXwIEE0s7eF8ETC-5CKV7l/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
@@ -167,7 +167,7 @@ params:
     title: "About Me"
     image: "/images/image.png"
     content: |-
-      I am a software engineer with a passion for web development. With a background in Computer Science and Engineering, I enjoy building functional, user-focused web applications that blend technology and creativity.
+      I am a software engineer with a passion for modern web technologies. With a background in Computer Science and Engineering, I enjoy building functional, user-focused web applications that blend technology and creativity.
       
       I am currently working as Trainee Software Engineer at [CSM Bangladesh Ltd.](https://www.csmbangladesh.com) in Dhaka, Bangladesh.
 
@@ -178,7 +178,7 @@ params:
       items:
         - "<i class='fa-brands fa-html5'></i> HTML"
         - "<i class='fas fa-paint-brush'></i> CSS"
-        - "<i class='fab fa-js'></i> JavaScript"
+        - "<i class='fab fa-js'></i> JQuery/Ajax"
         - "<i class='fa-brands fa-angular'></i> Angular"
         - "<i class='fas fa-globe'></i> ASP.NET Core"
         - "<i class='fa-solid fa-database'></i> MSSQL Server"
